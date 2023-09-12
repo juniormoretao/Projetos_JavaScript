@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modelo</title>
+</head>
+<body >
+    <header>
+        <h1 id="titulo"> Verificador de idade</h1>
+    </header>
+    <section>
+        <div >
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min=" 0">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="masc"checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="masc">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha para ver os resultados
+        </div>
+        </section>
+        <footer>
+            <p>&copy; Mazora</p>
+        </footer>
+</body>
+<script src="script.js"></script>
+</html>
